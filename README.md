@@ -1,4 +1,4 @@
-# Powershell - A playground for PowerShell scripts
+# A playground for PowerShell scripts
 A repo for powershell related scripts.
 # Goal
 The goal of this repo is to help me create a record of learning and help other people use PowerShell for common use cases.
