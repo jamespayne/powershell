@@ -9,15 +9,13 @@ Import-Module PSExcel
 
 $WorkingFile = "$PSScriptRoot\Read.xlsx"
 
-$AnimalProducts = New-Object System.Collections.ArrayList
-
 foreach ($record in (Import-XLSX -Path $WorkingFile -RowStart 1)){
     Write-Host $record
 }
 
 #Note: The -RowSart 1 parameter allows us to skip the header row which contains:
 
-Product	Category	Price	Stock	Comments
+#Product	Category	Price	Stock	Comments
 
 #If everything is in order, you should see the following results:
 
