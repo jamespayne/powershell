@@ -7,7 +7,7 @@
 
 Import-Module PSExcel
 
-$WorkingFile = "$PSScriptRoot\Read.xlsx"
+$WorkingFile = "$PSScriptRoot\xlsx_sample.xlsx"
 
 foreach ($record in (Import-XLSX -Path $WorkingFile -RowStart 1)){
     Write-Host $record
