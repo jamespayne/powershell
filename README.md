@@ -1,2 +1,2 @@
-# Powershell
-Repo for powershell related scripts
+# powershell
+A repo for powershell related scripts.
