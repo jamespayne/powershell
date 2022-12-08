@@ -1,0 +1,1 @@
+#Basic script to read the contents of a .csv file
