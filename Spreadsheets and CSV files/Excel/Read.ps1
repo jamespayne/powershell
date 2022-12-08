@@ -5,8 +5,9 @@
 
 #To install the required module, do `Install-module PSExcel`
 
-$WorkingFile = "$PSScriptRoot\Read.xlsx"
 Import-Module PSExcel
+
+$WorkingFile = "$PSScriptRoot\Read.xlsx"
 
 $AnimalProducts = New-Object System.Collections.ArrayList
 
